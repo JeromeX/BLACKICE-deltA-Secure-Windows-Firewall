@@ -63,9 +63,4 @@ Dieses Projekt ist proprietär. Jede Installation erfordert eine Hardware-gebund
 *   **Hardware-ID:** Gebunden an Mainboard & CPU.
 *   **Updates:** Lebenslanger Zugriff auf Definitions-Updates innerhalb der Hauptversion V28.
 
----
-
-## 🚀 Build-Prozess
-Der Build erfolgt über das integrierte Master-Skript:
-```powershell
-.\Original_Build_BlackIce_Master.ps1
+### © 2026 | Malte Speck | BLACKICE deltA - Neural Pulse Project
