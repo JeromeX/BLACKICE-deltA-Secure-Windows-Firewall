@@ -1,61 +1,71 @@
-# 🛡️ BlackIce Omega Suite
+# 🛡️ BLACKICE deltA V28.04 - NEURAL PULSE
 
-![Version](https://img.shields.io/badge/Version-12.22_Titan_Apex-blue)
-![Platform](https://img.shields.io/badge/Platform-Windows_10%20%7C%2011-lightgrey)
-![Architecture](https://img.shields.io/badge/Architecture-x64%20%7C%20AMD64-orange)
-![License](https://img.shields.io/badge/License-Proprietary-red)
+![Version](https://img.shields.io/badge/VERSION-28.04_NEURAL_PULSE-00FFFF?style=for-the-badge)
+![Security](https://img.shields.io/badge/SECURITY-MAIN_FIREWALL_OVERRIDE-RED?style=for-the-badge)
+![License](https://img.shields.io/badge/LICENSE-PROPRIETARY-RED?style=for-the-badge)
+![Tech](https://img.shields.io/badge/TECH-C%23_|_WPF_|_WFP-8A2BE2?style=for-the-badge)
+![Platform](https://img.shields.io/badge/PLATFORM-WINDOWS_10_/_11-0078D6?style=for-the-badge&logo=windows)
+![Architecture](https://img.shields.io/badge/ARCHITECTURE-X64_|_AMD64-ORANGE?style=for-the-badge)
 
-**BlackIce Omega** is an advanced, high-performance network security matrix and Windows Filtering Platform (WFP) frontend. It provides real-time traffic analysis, process-level deep packet inspection, and an integrated AI cyber-assistant (NOVA).
-
-
-<img width="1403" height="852" alt="2026-05-01 23_48_46-BlackIce Omega Suite" src="https://github.com/user-attachments/assets/2fc5cdfc-7231-4e87-912e-b67c4ccf995e" />
-<img width="1399" height="850" alt="2026-05-01 23_49_37-BlackIce Omega Suite" src="https://github.com/user-attachments/assets/d6175f74-a1c5-412a-ab56-07a0225fc4e4" />
-<img width="1400" height="850" alt="2026-05-02 01_32_28-Clipboard" src="https://github.com/user-attachments/assets/9131ab52-eec4-4d5a-85a6-4f02d89d785a" />
-<img width="1401" height="851" alt="2026-05-01 23_55_26-BlackIce Omega Suite" src="https://github.com/user-attachments/assets/445a8a16-625d-49a7-9d12-a5b2f15d9469" />
-<img width="1400" height="850" alt="2026-05-01 23_56_44-BlackIce Omega Suite" src="https://github.com/user-attachments/assets/923b7080-7dab-4655-bcdf-35b504c59559" />
-<img width="1400" height="848" alt="2026-05-02 01_49_21-BlackIce Omega Suite" src="https://github.com/user-attachments/assets/66481b18-c383-4797-9211-deeffe9bf192" />
-<img width="1400" height="850" alt="2026-05-01 23_56_38-BlackIce Omega Suite" src="https://github.com/user-attachments/assets/da8001b9-8b4a-4beb-bb14-2f6e39f25173" />
-<img width="1400" height="850" alt="2026-05-01 23_56_48-BlackIce Omega Suite" src="https://github.com/user-attachments/assets/146ca0d0-f15e-45d4-92fc-b0f88076dadb" />
-<img width="1400" height="850" alt="2026-05-01 23_56_56-BlackIce Omega Suite" src="https://github.com/user-attachments/assets/2eb19ed6-6839-414e-9e61-909c9321ab70" />
-<img width="1400" height="850" alt="2026-05-01 23_57_02-BlackIce Omega Suite" src="https://github.com/user-attachments/assets/0b5957d9-d081-4bfc-90bd-a4e7dc5f7898" />
-<img width="1400" height="850" alt="2026-05-01 23_57_10-BlackIce Omega Suite" src="https://github.com/user-attachments/assets/a0fe660c-fc67-4a75-8bf4-7a760d0be73f" />
-<img width="1400" height="850" alt="2026-05-01 23_57_16-BlackIce Omega Suite" src="https://github.com/user-attachments/assets/96df1372-e6cc-4705-b585-6683b1719cbe" />
-<img width="1400" height="850" alt="2026-05-01 23_57_31-BlackIce Omega Suite" src="https://github.com/user-attachments/assets/a7e3b572-4651-4020-89f5-ad8ad61007e0" />
-<img width="1400" height="850" alt="2026-05-01 23_57_37-BlackIce Omega Suite" src="https://github.com/user-attachments/assets/44235c20-4501-4c90-91c8-844fb95e7181" />
-<img width="1400" height="850" alt="2026-05-01 23_57_52-BlackIce Omega Suite" src="https://github.com/user-attachments/assets/9e5002fd-8cd2-4593-8671-b3b80b9ac4c0" />
-<img width="1400" height="850" alt="2026-05-01 23_58_40-BlackIce Omega Suite" src="https://github.com/user-attachments/assets/e4072725-85ed-4b82-9ca3-9608eebbcca5" />
-<img width="1404" height="853" alt="2026-05-01 23_58_49-Administrator_ C__WINDOWS_system32_cmd exe" src="https://github.com/user-attachments/assets/06218417-0548-4060-a250-89f7c20dd72d" />
-<img width="1400" height="850" alt="2026-05-02 10_26_14-BlackIce Omega Suite" src="https://github.com/user-attachments/assets/c01d094a-5891-4b28-8dd9-0afa180dabaf" />
-<img width="1400" height="850" alt="2026-05-02 10_26_48-BlackIce Omega Suite" src="https://github.com/user-attachments/assets/b8b521f1-967e-413d-be46-3eb69e7665df" />
-<img width="421" height="176" alt="2026-05-01 23_45_33-" src="https://github.com/user-attachments/assets/a3f57c89-3666-44fe-a519-1124b7973db3" />
-<img width="427" height="158" alt="2026-05-01 23_48_10-" src="https://github.com/user-attachments/assets/5724d993-354c-486a-a407-6401e995b842" />
-
-
-## 🔥 Core Features
-
-*   **Live Connections Matrix:** Visual network graph mapping active TCP connections, separating LAN and WAN traffic in real-time.
-*   **Intrusion Alert System:** Asynchronous, dynamically scaling threat alerts for unverified inbound/outbound connections.
-*   **NOVA AI Assistant:** Integrated LLM cyber-assistant (powered by Mistral 8x7B) for immediate security triage and firewall queries.
-*   **Life Saver (Killswitch):** Instantly severs all Layer-3 outbound/inbound WAN routing upon suspected breach or ransomware activity, keeping the local subnet intact.
-*   **Deep System Integration:** Operates natively via the Windows Filtering Platform and can be deployed as an elevated background service to suppress UAC prompts.
-*   **AES-256 Secured:** All local telemetry, firewall rules, and AI API keys are heavily encrypted via local SQLite/CryptoStore databases.
-
-## 🚀 Installation
-
-1. Go to the [Releases](../../releases) page.
-2. Download the latest `BlackIce_Omega_Installer.exe`.
-3. Run the setup and grant Administrator privileges (required for WFP manipulation).
-4. Launch BlackIce Omega and enter your License Key.
-
-## 🔑 Licensing
-
-BlackIce Omega is a **commercial, proprietary software**. A valid Pro License is required to unlock network zones, app-level blocking, and the Life Saver functionalities. 
-
-For license inquiries or support, please contact the developer or visit the official project page.
-
-## ⚠️ Disclaimer
-
-BlackIce manipulates native Windows OS Firewall rules. Do not use in combination with third-party firewall applications (e.g., GlassWire, Comodo) to prevent system conflicts. The software is provided "as is", without warranty of any kind.
+**BLACKICE deltA** ist eine hochperformante **Main-Firewall-Suite**, die als vollständiger Ersatz für die Windows-Firewall-Logik konzipiert wurde. Basierend auf der **Windows Filtering Platform (WFP)** bietet sie Kernel-nahe Sicherheit, gepaart mit einer reaktionsschnellen Cyber-Matrix-Oberfläche.
+<img width="1450" height="850" alt="2026-05-03 15_00_25-BlackIce deltA Suite" src="https://github.com/user-attachments/assets/e4ebb4df-7778-467e-ad44-7e51aac62e6a" />
+<img width="1448" height="850" alt="2026-05-03 15_04_10-BlackIce deltA Suite" src="https://github.com/user-attachments/assets/0ef7945e-0a8a-41fd-9e28-54bec40bc19a" />
 
 ---
-*© 2026 Malte Speck. All Rights Reserved.*
+
+## ⚠️ KRITISCHES SICHERHEITSPROTOKOLL: LIZENZ & LOCKOUT
+Um die Integrität des Systems ab der ersten Sekunde zu gewährleisten, nutzt BLACKICE deltA ein **Pre-Activation Lockout System**:
+
+1.  **Globaler Lock:** Sofort nach der Installation wird jeglicher ein- und ausgehende Internetverkehr blockiert.
+2.  **Lizenz-Validierung:** Das System erfordert einen gültigen Lizenzkey, der kryptografisch an die Hardware-ID (HWID) gebunden ist (SHA-256 Checksumme).
+3.  **Freischaltung:** Erst nach erfolgreicher Verifizierung wird der Netzwerkstack freigegeben. Dies verhindert Zero-Day-Kommunikation von Schadsoftware während der Setup-Phase.
+
+---
+
+## ⚡ Core Features & Funktionen
+
+### 🧩 Main-Firewall Override & Dienst-Modus
+*   **Volle System-Kontrolle:** Übernimmt alle Funktionen der nativen Windows-Firewall.
+*   **Kernel-Level-Service:** Operiert als privilegierter Windows-Dienst (`BlackIceDeltASvc`). Er startet vor dem Benutzer-Login und schützt den Boot-Vorgang.
+*   **Persistence:** Manipulationsgeschützte Dienst-Struktur, die unbefugtes Deaktivieren verhindert.
+
+### 📊 Neural Pulse Dashboard (V28.04 Spezial)
+*   **Neural EKG Engine:** Echtzeit-Header-Scanner, der Hostname und Zeit in einer flüssigen EKG-Animation visualisiert.
+*   **Time-Synced Monitoring:** Die EKG-Linien in der Prozessliste sind mit der Systemzeit synchronisiert, um flüssige, unterbrechungsfreie Animationen bei Daten-Refreshes zu garantieren.
+*   **Cyber-Blue Interaction:** Fenstermanagement-Buttons (Minimieren/Schließen) in **Bold**-Optik mit intensivem **DeepSkyBlue-Neon-Glow** bei Mouseover.
+
+### 🛡️ Erweiterte Abwehrmechanismen
+*   **Life Saver (Killswitch):** Sofortige Isolation vom Internet (WAN), während lokale Netzwerkressourcen (LAN) erreichbar bleiben.
+*   **App-Inquisitor:** Permanente Isolation spezifischer ausführbarer Dateien (.exe) vom Netzwerk.
+*   **Domain-Neural-Resolve:** Dynamische Sperrung von Domains durch automatische, asynchrone Hintergrund-Auflösung aller zugehörigen IP-Adressen.
+*   **NOVA AI Assistant:** Kontextsensitive Analyse der Firewall-Regeln zur Erkennung von Fehlkonfigurationen.
+
+---
+
+## 🛠️ Technische Spezifikationen
+
+### Architektur & Stack
+*   **Programmiersprache:** C# 12.0
+*   **Framework:** .NET 8 / .NET 9 (LTS)
+*   **UI-Engine:** WPF (Windows Presentation Foundation) mit hardwarebeschleunigtem Vektor-Rendering.
+*   **Datenhaltung:** AES-256 verschlüsselte **SQLite** Datenbank für Logs und Regelwerke.
+*   **Schnittstellen:** Direkte Integration in die **Windows Filtering Platform (WFP)** API.
+
+### Anforderungen
+*   **OS:** Windows 10 (1903+) / Windows 11 (x64/ARM64).
+*   **Privilegien:** Administratorrechte zwingend erforderlich.
+*   **Ressourcen:** <30MB RAM im Dienst-Modus; optimiert für minimale CPU-Last trotz Neural-Pulse-Animationen.
+
+---
+
+## 🔑 Lizenzierung
+Dieses Projekt ist proprietär. Jede Installation erfordert eine Hardware-gebundene Lizenz.
+*   **Hardware-ID:** Gebunden an Mainboard & CPU.
+*   **Updates:** Lebenslanger Zugriff auf Definitions-Updates innerhalb der Hauptversion V28.
+
+---
+
+## 🚀 Build-Prozess
+Der Build erfolgt über das integrierte Master-Skript:
+```powershell
+.\Original_Build_BlackIce_Master.ps1
