@@ -6,9 +6,13 @@ The following images show the BlackIce Windows client interface. Images are stor
 
 ## Dashboard and firewall
 
-| Dashboard | System rules |
+| Dashboard | Dashboard — wide view |
 |---|---|
-| ![Live dashboard](assets/screenshots/dashboard.png) | ![System rules](assets/screenshots/system-rules.png) |
+| ![Live dashboard](assets/screenshots/dashboard.png) | ![Wide dashboard](assets/screenshots/dashboard-wide.png) |
+
+| System rules | Network zones |
+|---|---|
+| ![System rules](assets/screenshots/system-rules.png) | ![Network zones](assets/screenshots/network-zones.png) |
 
 | Network zones | Application rules |
 |---|---|
