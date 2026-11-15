@@ -2,7 +2,7 @@
 
 ## Scope
 
-This repository is a public-facing product and documentation space. It contains product information, screenshots and diagrams; it does not contain the BlackIce application source code, executable releases, internal administration utilities or private signing material.
+This repository is a public-facing product and documentation space. It contains product information, screenshots and diagrams; it does not contain the BlackIce application source code, executable releases or confidential internal tools.
 
 ## Reporting a security issue
 
