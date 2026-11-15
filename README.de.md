@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="BlackIce_EN/assets/app-icon.png" alt="BlackIce Delta Symbol" width="104" />
+  <img src="docs/assets/blackice-feature-map.svg" alt="BlackIce Delta Symbol" width="104" />
   <h1>BlackIce Δ</h1>
   <p><strong>Windows-Firewall-Steuerung &amp; Netzwerktransparenz</strong></p>
   <p>Eine zentrale Desktop-Oberfläche für Firewallregeln, Netzwerkkontext, Verbindungsdiagnostik und Offline-Lizenzierung.</p>
