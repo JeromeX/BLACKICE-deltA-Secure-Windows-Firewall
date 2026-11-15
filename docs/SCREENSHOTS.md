@@ -14,9 +14,9 @@ The following images show the BlackIce Windows client interface. Images are stor
 |---|---|
 | ![System rules](assets/screenshots/system-rules.png) | ![Network zones](assets/screenshots/network-zones.png) |
 
-| Network zones | Application rules |
+| Application rules | App blocking |
 |---|---|
-| ![Network zones](assets/screenshots/network-zones.png) | ![Application rules](assets/screenshots/application-rules.png) |
+| ![Application rules](assets/screenshots/application-rules.png) | ![App blocking](assets/screenshots/app-blocking.png) |
 
 | App blocking | Allowed IPs |
 |---|---|
