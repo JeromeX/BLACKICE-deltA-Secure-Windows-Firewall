@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="780" viewBox="0 0 1400 780" role="img" aria-labelledby="t d">
+<title id="t">BlackIce feature map</title><desc id="d">A grouped visual overview of BlackIce firewall control, network intelligence, privacy, and licensing functions.</desc>
+<defs><linearGradient id="g" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#08111d"/><stop offset="1" stop-color="#14283a"/></linearGradient><linearGradient id="a" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#04dbe7"/><stop offset="1" stop-color="#247fff"/></linearGradient><style>
+.title{font:700 32px 'Segoe UI',Arial;fill:#f5f8ff}.sub{font:16px 'Segoe UI',Arial;fill:#a9b9ca}.head{font:700 20px 'Segoe UI',Arial;fill:#00e3e9}.card{fill:#111f2d;stroke:#31546d;stroke-width:1.7}.name{font:700 18px 'Segoe UI',Arial;fill:#eef7ff}.desc{font:14px 'Segoe UI',Arial;fill:#b8c7d6}.num{font:700 22px 'Segoe UI',Arial;fill:#071320}.note{font:13px 'Segoe UI',Arial;fill:#92a6b8}
+</style></defs>
+<rect width="1400" height="780" rx="26" fill="url(#g)"/>
+<text x="60" y="65" class="title">BLACKICE Δ · FUNCTIONAL MAP</text><text x="60" y="95" class="sub">One desktop workspace for Windows firewall policy, network context and local diagnostics</text>
+<text x="60" y="160" class="head">01 / FIREWALL CONTROL</text>
+<g>
+<rect x="60" y="185" width="300" height="150" rx="15" class="card"/><circle cx="100" cy="225" r="22" fill="url(#a)"/><text x="100" y="233" class="num" text-anchor="middle">R</text><text x="138" y="231" class="name">System Rules</text><text x="85" y="275" class="desc">Review and manage supported</text><text x="85" y="297" class="desc">local Windows Firewall rules.</text>
+<rect x="385" y="185" width="300" height="150" rx="15" class="card"/><circle cx="425" cy="225" r="22" fill="url(#a)"/><text x="425" y="233" class="num" text-anchor="middle">Z</text><text x="463" y="231" class="name">Network Zones</text><text x="410" y="275" class="desc">View active Windows profiles,</text><text x="410" y="297" class="desc">networks and policy state.</text>
+<rect x="710" y="185" width="300" height="150" rx="15" class="card"/><circle cx="750" cy="225" r="22" fill="url(#a)"/><text x="750" y="233" class="num" text-anchor="middle">A</text><text x="788" y="231" class="name">App Blocking</text><text x="735" y="275" class="desc">Create application rules for</text><text x="735" y="297" class="desc">supported Win32 executables.</text>
+<rect x="1035" y="185" width="300" height="150" rx="15" class="card"/><circle cx="1075" cy="225" r="22" fill="url(#a)"/><text x="1075" y="233" class="num" text-anchor="middle">K</text><text x="1113" y="231" class="name">Internet Kill Switch</text><text x="1060" y="275" class="desc">Manual IPv4/IPv6 internet block</text><text x="1060" y="297" class="desc">with local/intranet scopes excluded.</text>
+</g>
+<text x="60" y="400" class="head">02 / NETWORK INTELLIGENCE</text>
+<g>
+<rect x="60" y="425" width="300" height="150" rx="15" class="card"/><circle cx="100" cy="465" r="22" fill="#9a7ae4"/><text x="100" y="473" class="num" text-anchor="middle">IP</text><text x="138" y="471" class="name">IP Lists</text><text x="85" y="515" class="desc">Separate blocked and allowed</text><text x="85" y="537" class="desc">address lists and rule actions.</text>
+<rect x="385" y="425" width="300" height="150" rx="15" class="card"/><circle cx="425" cy="465" r="22" fill="#9a7ae4"/><text x="425" y="473" class="num" text-anchor="middle">D</text><text x="463" y="471" class="name">DNS Diagnostics</text><text x="410" y="515" class="desc">Resolver, cache and available</text><text x="410" y="537" class="desc">Windows DNS event context.</text>
+<rect x="710" y="425" width="300" height="150" rx="15" class="card"/><circle cx="750" cy="465" r="22" fill="#9a7ae4"/><text x="750" y="473" class="num" text-anchor="middle">C</text><text x="788" y="471" class="name">Connections</text><text x="735" y="515" class="desc">TCP sessions, process context</text><text x="735" y="537" class="desc">and LAN neighbour information.</text>
+<rect x="1035" y="425" width="300" height="150" rx="15" class="card"/><circle cx="1075" cy="465" r="22" fill="#9a7ae4"/><text x="1075" y="473" class="num" text-anchor="middle">T</text><text x="1113" y="471" class="name">Terminal &amp; Statistics</text><text x="1060" y="515" class="desc">Network diagnostics, event</text><text x="1060" y="537" class="desc">history and activity summaries.</text>
+</g>
+<text x="60" y="640" class="head">03 / PRIVACY &amp; LICENSING</text>
+<rect x="60" y="665" width="610" height="75" rx="13" class="card"/><text x="88" y="695" class="name">IP Mask · Visual privacy</text><text x="88" y="720" class="desc">Masks IP strings inside the app UI; it does not anonymize network traffic or exported files.</text>
+<rect x="700" y="665" width="635" height="75" rx="13" class="card"/><text x="728" y="695" class="name">Offline License Manager</text><text x="728" y="720" class="desc">Local request, signed hardware-bound licensing and encrypted admin vault.</text>
+</svg>
