@@ -78,13 +78,13 @@ BlackIce does not require a license server for local activation. The customer cl
 |---|---:|
 | 7 days | Free Trial |
 | 30 days | Free Trial |
-| 1 year (365 days) | €25 (not published yet)|
-| 2 years (730 days) | €45 (not published yet) |
-| Lifetime | €100 (not published yet) |
+| 1 year (365 days) | €25 |
+| 2 years (730 days) | €45 |
+| Lifetime | €100 |
 
 Prices are informational request metadata only. The product does not process payments, generate invoices or verify payment receipt. E-mail is opened as a draft for the customer to review and send. The requested term is separate from the expiry of a license already installed on the PC.
 
-The Admin License Manager uses an encrypted local vault, SQLCipher database storage, a protected database key and an encrypted RSA private-key envelope. V2 license tokens use RSA-PSS with SHA-256. Recovery is handled through a separate encrypted `.bivault` package. These controls are described in the [License Manager security model](LicenseManager/SECURITY_MODEL.md); they have not been independently audited.
+The Admin License Manager uses an encrypted local vault, SQLCipher database storage, a protected database key and an encrypted RSA private-key envelope. V2 license tokens use RSA-PSS with SHA-256. Recovery is handled through a separate encrypted `.bivault` package. These controls are described in the [engineering and security overview](docs/ENGINEERING_OVERVIEW.md); they have not been independently audited.
 
 ## Product boundaries and known limitations
 
@@ -122,4 +122,4 @@ Never commit customer requests, signed tokens, vault folders, DPAPI keys, licens
 
 ## License
 
-This source is distributed under a **proprietary, all-rights-reserved notice**, not an open-source license. The legal copyright-holder field in [`LICENSE`](LICENSE) must be completed by the rights holder before distribution. A GitHub repository or download does not grant permission to use, modify or redistribute the source.
+This source is distributed under a **proprietary, all-rights-reserved notice**, not an open-source license. The [`LICENSE`](LICENSE) file names Malte Speck as the copyright holder. Before legal or commercial distribution, confirm that this matches the actual rights holder. A GitHub repository or download does not grant permission to use, modify or redistribute the source.
