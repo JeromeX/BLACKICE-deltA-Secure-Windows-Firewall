@@ -78,9 +78,9 @@ BlackIce does not require a license server for local activation. The customer cl
 |---|---:|
 | 7 days | Free Trial |
 | 30 days | Free Trial |
-| 1 year (365 days) | €25 |
-| 2 years (730 days) | €45 |
-| Lifetime | €100 |
+| 1 year (365 days) | €25 (not published yet)|
+| 2 years (730 days) | €45 (not published yet) |
+| Lifetime | €100 (not published yet) |
 
 Prices are informational request metadata only. The product does not process payments, generate invoices or verify payment receipt. E-mail is opened as a draft for the customer to review and send. The requested term is separate from the expiry of a license already installed on the PC.
 
@@ -102,11 +102,6 @@ The Admin License Manager uses an encrypted local vault, SQLCipher database stor
 |---|---|
 | BlackIce English client | `29.14.4` |
 | BlackIce German client | `29.14.4` |
-| Offline Admin License Manager | `1.0.5` |
-| Complete release builder | `1.0.7` |
-| Client interface integration | `UI Fix 27` (UI Fix 21 base preserved) |
-
-This repository snapshot is the UI Fix 27 baseline. It does not include the later UI Fix 28 experiment that coupled the new-request dropdown to the currently installed Lifetime license.
 
 **Validation boundary:** the repository archive and documentation structure were checked during packaging. A native Windows compilation, installer execution, firewall rule test and full request/import/sign/activation test must still be completed on a Windows test machine before a customer release is declared ready.
 
