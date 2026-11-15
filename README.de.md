@@ -46,6 +46,11 @@ BlackIce ersetzt **nicht** die Windows-Firewall-Engine. Die Paketfilterung über
 | **IP Mask** | Maskiert IP-Text innerhalb von Teilen der BlackIce-Oberfläche. Dies ist keine Anonymisierung des Netzwerkverkehrs. |
 | **NOVA AI (optional)** | Optionale, vom Betreiber konfigurierte KI-Anbindung; kein API-Schlüssel ist im Repository enthalten. |
 
+
+## Funktionsübersicht
+
+<p align="center"><img src="docs/assets/blackice-feature-map.svg" alt="BlackIce-Funktionsübersicht" width="100%" /></p>
+
 ## Wie BlackIce technisch aufgebaut wurde
 
 BlackIce ist mit **C# auf .NET 8 für Windows** und einer Windows Presentation Foundation (WPF)-Desktopoberfläche umgesetzt. Die englischen und deutschen Clients sind lokalisierte Varianten derselben funktionalen Produktbasis.
