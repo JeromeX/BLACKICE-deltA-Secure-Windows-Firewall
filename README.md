@@ -46,6 +46,11 @@ BlackIce does **not** replace the Windows firewall engine. Windows Defender Fire
 | **IP Mask** | Visually masks IP strings in parts of the BlackIce UI. It is a display aid, not traffic anonymization. |
 | **NOVA AI (optional)** | Provides an optional AI integration configured by the operator; no API credential is bundled. |
 
+
+## Functional map
+
+<p align="center"><img src="docs/assets/blackice-feature-map.svg" alt="BlackIce feature map" width="100%" /></p>
+
 ## How it is engineered
 
 BlackIce is implemented in **C# on .NET 8 for Windows**, with a Windows Presentation Foundation (WPF) desktop interface. English and German clients are maintained as localized variants of the same functional product baseline.
