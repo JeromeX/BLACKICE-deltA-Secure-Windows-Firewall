@@ -84,7 +84,7 @@ Für die lokale Aktivierung benötigt BlackIce keinen Lizenzserver. Der Kundencl
 
 Die Preise sind ausschließlich Metadaten der Anfrage. Das Produkt verarbeitet keine Zahlungen, erstellt keine Rechnungen und prüft keinen Zahlungseingang. Die E-Mail wird als Entwurf geöffnet und muss vom Benutzer geprüft und versendet werden. Die angefragte Laufzeit ist unabhängig vom Ablaufdatum einer bereits installierten Lizenz.
 
-Der Admin License Manager nutzt einen verschlüsselten lokalen Tresor, eine SQLCipher-Datenbank, einen geschützten Datenbankschlüssel und eine verschlüsselte Hülle für den privaten RSA-Schlüssel. V2-Lizenz-Token verwenden RSA-PSS mit SHA-256. Die Wiederherstellung erfolgt über ein separates verschlüsseltes `.bivault`-Paket. Diese Kontrollen sind im [Sicherheitsmodell des License Managers](LicenseManager/SECURITY_MODEL.md) beschrieben; eine unabhängige Sicherheitsprüfung ist nicht erfolgt.
+Der Admin License Manager nutzt einen verschlüsselten lokalen Tresor, eine SQLCipher-Datenbank, einen geschützten Datenbankschlüssel und eine verschlüsselte Hülle für den privaten RSA-Schlüssel. V2-Lizenz-Token verwenden RSA-PSS mit SHA-256. Die Wiederherstellung erfolgt über ein separates verschlüsseltes `.bivault`-Paket. Diese Kontrollen sind im [technischen und sicherheitsbezogenen Überblick](docs/ENGINEERING_OVERVIEW.md) beschrieben; eine unabhängige Sicherheitsprüfung ist nicht erfolgt.
 
 ## Produktgrenzen und bekannte Einschränkungen
 
@@ -127,4 +127,4 @@ Niemals Kundenanfragen, signierte Token, Tresorordner, DPAPI-Schlüssel, Lizenzd
 
 ## Lizenz
 
-Dieser Quellcode steht unter einem **proprietären Rechtevorbehalt** und nicht unter einer Open-Source-Lizenz. Das Feld für den rechtlichen Rechteinhaber in [`LICENSE`](LICENSE) muss vor einer Verteilung vom Rechteinhaber ergänzt werden. Ein GitHub-Repository oder Download erteilt keine Erlaubnis, den Quellcode zu verwenden, zu verändern oder weiterzuverteilen.
+Dieser Quellcode steht unter einem **proprietären Rechtevorbehalt** und nicht unter einer Open-Source-Lizenz. Die Datei [`LICENSE`](LICENSE) nennt Malte Speck als Rechteinhaber. Vor einer rechtlichen oder kommerziellen Verteilung muss sichergestellt werden, dass diese Angabe dem tatsächlichen Rechteinhaber entspricht. Ein GitHub-Repository oder Download erteilt keine Erlaubnis, den Quellcode zu verwenden, zu verändern oder weiterzuverteilen.
