@@ -71,4 +71,4 @@ Product documentation and screenshot paths were checked against the repository. 
 
 ## 8. Product architecture
 
-The architecture diagram and screenshot gallery describe the public-facing Windows client only. Internal administrative utilities and their implementation details are deliberately not part of this repository.
+The architecture diagram and screenshot gallery describe the public-facing Windows client only. No internal tools are published in this repository.
