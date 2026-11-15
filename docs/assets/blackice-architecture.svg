@@ -1,61 +1,31 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="900" viewBox="0 0 1400 900" role="img" aria-labelledby="title desc">
-<title id="title">BlackIce Delta product architecture</title><desc id="desc">Layered view of the BlackIce WPF client, its internal modules, Windows integration surfaces and local encrypted state, plus the separate offline license manager.</desc>
+<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="760" viewBox="0 0 1400 760" role="img" aria-labelledby="title desc">
+<title id="title">BlackIce Delta client architecture</title><desc id="desc">BlackIce Windows WPF client, its firewall and network modules, Windows integration surfaces and local application data.</desc>
 <defs>
-  <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#0b111b"/><stop offset="1" stop-color="#101c2a"/></linearGradient>
-  <linearGradient id="cyan" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#00dce8"/><stop offset="1" stop-color="#2697ff"/></linearGradient>
-  <filter id="glow" x="-30%" y="-30%" width="160%" height="160%"><feGaussianBlur stdDeviation="5" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
-  <marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto"><path d="M0 0 L10 5 L0 10 z" fill="#38cfe0"/></marker>
-  <style>
-    .h{font:700 26px 'Segoe UI',Arial;fill:#f4f8ff}.sub{font:16px 'Segoe UI',Arial;fill:#a9b8ca}.layer{fill:#111d2b;stroke:#2a465d;stroke-width:2}.client{fill:#102538;stroke:#08cddd;stroke-width:2.4}.tile{fill:#182638;stroke:#3a5971;stroke-width:1.5}.host{fill:#132b31;stroke:#1ba9a5;stroke-width:1.8}.data{fill:#20253a;stroke:#8770bd;stroke-width:1.8}.lic{fill:#2b2138;stroke:#be83ff;stroke-width:2}.title{font:700 19px 'Segoe UI',Arial;fill:#eaf8ff}.body{font:14px 'Segoe UI',Arial;fill:#b9c8d8}.tiny{font:12px 'Segoe UI',Arial;fill:#8fa3b8}.line{fill:none;stroke:#38cfe0;stroke-width:2.4;marker-end:url(#arrow)}.line2{fill:none;stroke:#ad86e8;stroke-width:2.4;marker-end:url(#arrow)}
-  </style>
-</defs>
-<rect width="1400" height="900" rx="28" fill="url(#bg)"/>
-<text x="54" y="58" class="h">BLACKICE Δ · PRODUCT ARCHITECTURE</text>
-<text x="54" y="88" class="sub">A Windows-native control layer over the built-in Windows Defender Firewall</text>
-<!-- client shell -->
-<rect x="50" y="125" width="1300" height="155" rx="18" class="client" filter="url(#glow)"/>
-<text x="78" y="163" class="title">BLACKICE DESKTOP CLIENT · .NET 8 / C# / WPF</text>
-<text x="78" y="188" class="body">Two localized client variants · English and German · elevated Windows desktop application</text>
+<linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#0b111b"/><stop offset="1" stop-color="#101c2a"/></linearGradient>
+<marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto"><path d="M0 0 L10 5 L0 10 z" fill="#38cfe0"/></marker>
+<style>.h{font:700 28px 'Segoe UI',Arial;fill:#f4f8ff}.sub{font:16px 'Segoe UI',Arial;fill:#a9b8ca}.layer{fill:#111d2b;stroke:#2a465d;stroke-width:2}.client{fill:#102538;stroke:#08cddd;stroke-width:2.4}.tile{fill:#182638;stroke:#3a5971;stroke-width:1.5}.host{fill:#132b31;stroke:#1ba9a5;stroke-width:1.8}.data{fill:#20253a;stroke:#8770bd;stroke-width:1.8}.title{font:700 19px 'Segoe UI',Arial;fill:#eaf8ff}.body{font:15px 'Segoe UI',Arial;fill:#b9c8d8}.tiny{font:13px 'Segoe UI',Arial;fill:#8fa3b8}.line{fill:none;stroke:#38cfe0;stroke-width:2.5;marker-end:url(#arrow)}</style></defs>
+<rect width="1400" height="760" rx="28" fill="url(#bg)"/>
+<text x="55" y="60" class="h">BLACKICE Δ · CLIENT ARCHITECTURE</text><text x="55" y="92" class="sub">A Windows-native control and visibility layer over Windows Defender Firewall</text>
+<rect x="50" y="130" width="1300" height="155" rx="18" class="client"/>
+<text x="80" y="170" class="title">BLACKICE DESKTOP CLIENT · C# / .NET 8 / WPF</text><text x="80" y="197" class="body">Windows x64 · English and German localized variants · elevated desktop application</text>
 <g>
- <rect x="78" y="208" width="190" height="48" rx="9" class="tile"/><text x="173" y="237" text-anchor="middle" class="body">Dashboard &amp; Status</text>
- <rect x="284" y="208" width="190" height="48" rx="9" class="tile"/><text x="379" y="237" text-anchor="middle" class="body">Firewall Rules</text>
- <rect x="490" y="208" width="190" height="48" rx="9" class="tile"/><text x="585" y="237" text-anchor="middle" class="body">Network Zones</text>
- <rect x="696" y="208" width="190" height="48" rx="9" class="tile"/><text x="791" y="237" text-anchor="middle" class="body">App / IP Controls</text>
- <rect x="902" y="208" width="190" height="48" rx="9" class="tile"/><text x="997" y="237" text-anchor="middle" class="body">DNS &amp; Connections</text>
- <rect x="1108" y="208" width="214" height="48" rx="9" class="tile"/><text x="1215" y="237" text-anchor="middle" class="body">Logs / Terminal / Stats</text>
+<rect x="80" y="218" width="185" height="45" rx="9" class="tile"/><text x="172" y="246" text-anchor="middle" class="body">Dashboard</text>
+<rect x="280" y="218" width="185" height="45" rx="9" class="tile"/><text x="372" y="246" text-anchor="middle" class="body">Firewall Rules</text>
+<rect x="480" y="218" width="185" height="45" rx="9" class="tile"/><text x="572" y="246" text-anchor="middle" class="body">Network Zones</text>
+<rect x="680" y="218" width="185" height="45" rx="9" class="tile"/><text x="772" y="246" text-anchor="middle" class="body">App / IP Controls</text>
+<rect x="880" y="218" width="185" height="45" rx="9" class="tile"/><text x="972" y="246" text-anchor="middle" class="body">DNS / Connections</text>
+<rect x="1080" y="218" width="235" height="45" rx="9" class="tile"/><text x="1197" y="246" text-anchor="middle" class="body">Logs / Terminal / Stats</text>
 </g>
-<!-- arrows to integration -->
-<path d="M310 280 V330" class="line"/><path d="M700 280 V330" class="line"/><path d="M1090 280 V330" class="line"/>
-<!-- Windows integration layer -->
-<rect x="50" y="335" width="860" height="255" rx="18" class="layer"/>
-<text x="78" y="373" class="title">WINDOWS INTEGRATION LAYER</text>
-<g>
- <rect x="78" y="397" width="245" height="75" rx="11" class="host"/><text x="200" y="425" class="title" text-anchor="middle">Windows Defender Firewall</text><text x="200" y="449" class="body" text-anchor="middle">NetSecurity cmdlets · netsh</text>
- <rect x="342" y="397" width="245" height="75" rx="11" class="host"/><text x="464" y="425" class="title" text-anchor="middle">Network &amp; DNS Sources</text><text x="464" y="449" class="body" text-anchor="middle">TCP · Neighbor Cache · DNS</text>
- <rect x="606" y="397" width="276" height="75" rx="11" class="host"/><text x="744" y="425" class="title" text-anchor="middle">Windows Event Sources</text><text x="744" y="449" class="body" text-anchor="middle">WFP 5157 · DNS 3008 · Sysmon 22*</text>
- <text x="78" y="510" class="body">Firewall changes are applied to the Windows firewall engine, then checked against the local rule store.</text>
- <text x="78" y="535" class="body">Blocked-connection and DNS telemetry depends on Windows audit/log availability; optional sources are not assumed.</text>
- <text x="78" y="563" class="tiny">* Sysmon process-aware DNS events are available only where Sysmon is installed and configured.</text>
-</g>
-<!-- local data -->
-<path d="M910 462 H954" class="line"/>
-<rect x="960" y="335" width="390" height="255" rx="18" class="data"/>
-<text x="990" y="373" class="title">LOCAL DEVICE STATE</text>
-<rect x="990" y="397" width="330" height="58" rx="10" class="tile"/><text x="1155" y="422" class="title" text-anchor="middle">SQLCipher / SQLite</text><text x="1155" y="442" class="body" text-anchor="middle">Rules · preferences · application logs</text>
-<rect x="990" y="469" width="330" height="58" rx="10" class="tile"/><text x="1155" y="494" class="title" text-anchor="middle">Windows DPAPI / Registry</text><text x="1155" y="514" class="body" text-anchor="middle">Machine-protected local credentials</text>
-<text x="990" y="558" class="tiny">No central BlackIce firewall cloud is required for core local control.</text>
-<!-- licensing panel -->
-<path d="M700 590 V640" class="line2"/>
-<rect x="50" y="650" width="1300" height="195" rx="18" class="lic"/>
-<text x="78" y="690" class="title">SEPARATE OFFLINE LICENSE ADMINISTRATION</text>
-<g>
- <rect x="80" y="715" width="250" height="82" rx="11" class="tile"/><text x="205" y="745" class="title" text-anchor="middle">BlackIce Client</text><text x="205" y="770" class="body" text-anchor="middle">Creates .blreq request</text>
- <path d="M330 755 H390" class="line2"/>
- <rect x="400" y="715" width="250" height="82" rx="11" class="tile"/><text x="525" y="745" class="title" text-anchor="middle">Admin License Manager</text><text x="525" y="770" class="body" text-anchor="middle">Offline review &amp; issuance</text>
- <path d="M650 755 H710" class="line2"/>
- <rect x="720" y="715" width="250" height="82" rx="11" class="tile"/><text x="845" y="745" class="title" text-anchor="middle">Encrypted Vault</text><text x="845" y="770" class="body" text-anchor="middle">SQLCipher + protected RSA key</text>
- <path d="M970 755 H1030" class="line2"/>
- <rect x="1040" y="715" width="275" height="82" rx="11" class="tile"/><text x="1177" y="745" class="title" text-anchor="middle">Signed License Token</text><text x="1177" y="770" class="body" text-anchor="middle">RSA-PSS / SHA-256 · local check</text>
-</g>
-<text x="78" y="824" class="tiny">Licensing is offline: the client verifies the signed token and hardware binding locally; no online revocation service is included.</text>
+<path d="M300 285 V335" class="line"/><path d="M700 285 V335" class="line"/><path d="M1100 285 V335" class="line"/>
+<rect x="50" y="340" width="850" height="290" rx="18" class="layer"/><text x="80" y="380" class="title">WINDOWS INTEGRATION LAYER</text>
+<rect x="80" y="405" width="240" height="80" rx="11" class="host"/><text x="200" y="437" class="title" text-anchor="middle">Windows Defender Firewall</text><text x="200" y="463" class="body" text-anchor="middle">NetSecurity · netsh advfirewall</text>
+<rect x="345" y="405" width="240" height="80" rx="11" class="host"/><text x="465" y="437" class="title" text-anchor="middle">Network / DNS Sources</text><text x="465" y="463" class="body" text-anchor="middle">TCP · Neighbour Cache · DNS</text>
+<rect x="610" y="405" width="260" height="80" rx="11" class="host"/><text x="740" y="437" class="title" text-anchor="middle">Windows Event Sources</text><text x="740" y="463" class="body" text-anchor="middle">WFP 5157 · DNS 3008 · Sysmon 22*</text>
+<text x="80" y="530" class="body">Firewall changes are applied to the Windows firewall engine and checked against local rule state.</text><text x="80" y="558" class="body">Connection and DNS telemetry depend on the Windows sources and audit configuration available on the PC.</text><text x="80" y="590" class="tiny">* Sysmon process-aware DNS events require Sysmon to be installed and configured.</text>
+<path d="M900 485 H950" class="line"/>
+<rect x="960" y="340" width="390" height="290" rx="18" class="data"/><text x="990" y="380" class="title">LOCAL DEVICE STATE</text>
+<rect x="990" y="405" width="330" height="70" rx="10" class="tile"/><text x="1155" y="434" class="title" text-anchor="middle">Local Application Data</text><text x="1155" y="458" class="body" text-anchor="middle">Settings · preferences · event history</text>
+<rect x="990" y="493" width="330" height="70" rx="10" class="tile"/><text x="1155" y="522" class="title" text-anchor="middle">Windows-protected State</text><text x="1155" y="546" class="body" text-anchor="middle">Machine-scoped credentials where used</text>
+<text x="990" y="595" class="tiny">Core local firewall control does not require a BlackIce cloud service.</text>
+<text x="55" y="700" class="sub">Windows Defender Firewall remains the packet-filtering engine. BlackIce is the management and visibility interface.</text>
 </svg>

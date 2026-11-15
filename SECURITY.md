@@ -1,35 +1,24 @@
 # Security Policy
 
-## Current release baseline
+## Scope
 
-The source baseline documented here is BlackIce Δ `v29.14.4` / UI Fix 27 with Admin License Manager `1.0.5`.
+This repository is a public-facing product and documentation space. It contains product information, screenshots and diagrams; it does not contain the BlackIce application source code, executable releases, internal administration utilities or private signing material.
 
-**Repository visibility is restricted:** keep this source repository private until the legacy licensing and cryptographic compatibility material described in [`PUBLIC_RELEASE_BLOCKER.md`](PUBLIC_RELEASE_BLOCKER.md) has been removed or redesigned and a source/binary review has been completed.
+## Reporting a security issue
 
-## Reporting a vulnerability
+Do not publish exploit details, personal information, customer logs, hardware identifiers, license tokens, API credentials, private network details or other sensitive data in a public issue.
 
-Do not publish exploit details, license tokens, hardware identifiers, API keys, private keys, vault files, database files or customer network information in a public issue.
+Use GitHub's **Private vulnerability reporting** feature when enabled. If it is unavailable, contact the repository maintainer through a private channel listed in the repository owner's profile. Include only the minimum information needed to understand the report.
 
-Use GitHub's **Private vulnerability reporting** feature when enabled. If it is unavailable, contact the repository maintainer through a private channel listed in the repository owner's profile. Include only the minimum information needed to understand and reproduce the issue.
+## Screenshot and documentation hygiene
 
-## Sensitive material — never commit
+- Mask public IP addresses, private network details and customer identifiers before adding screenshots.
+- Do not include terminal output containing credentials, tokens or host-specific secrets.
+- The BlackIce IP Mask is a display aid and must not be treated as a general-purpose data-sanitization tool.
+- Do not upload application databases, diagnostic exports or customer support files to this repository.
 
-- License Manager vault folders, private-key envelopes, DPAPI database-key files and `.bivault` recovery packages.
-- Customer databases, `.blreq` requests, signed `.blic` tokens and hardware identifiers.
-- NOVA AI API credentials, access tokens, mail credentials or private certificates.
-- Production customer names, e-mail addresses, public IP lists, firewall exports or diagnostic logs containing personal/network information.
-- Locally generated installers and build outputs unless explicitly approved for a release.
+## Product security boundaries
 
-The `.gitignore` file provides baseline exclusions, but every staged change must be reviewed before commit.
-
-## Security assumptions and limitations
-
-- BlackIce delegates packet filtering to Windows Defender Firewall; Windows policy precedence and local administrator permissions remain relevant.
-- WFP blocked-connection telemetry requires the relevant Windows audit policy.
-- Offline licenses have no central instant-revocation channel.
-- IP Mask is a UI presentation feature and is not a data-sanitization mechanism.
-- The current source has not undergone an independent security audit or formal threat model.
-
-## Public-release restriction
-
-The current source contains legacy V1 verification and other fixed legacy crypto/database compatibility constants. These must not be exposed in a public source repository or public binaries. See [`PUBLIC_RELEASE_BLOCKER.md`](PUBLIC_RELEASE_BLOCKER.md). Do not disable migration compatibility until the impact on existing licenses and stored data has been assessed.
+- BlackIce manages the built-in Windows Defender Firewall; Windows remains responsible for packet filtering.
+- Windows event/audit settings affect the availability of some diagnostic information.
+- Product documentation describes known limitations and does not claim independent security certification.
