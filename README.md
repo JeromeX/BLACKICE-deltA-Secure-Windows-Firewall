@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="BlackIce_EN/assets/app-icon.png" alt="BlackIce Delta icon" width="104" />
+  
   <h1>BlackIce Δ</h1>
   <p><strong>Windows Firewall Control &amp; Network Visibility</strong></p>
   <p>One focused desktop workspace for firewall rules, network context, connection diagnostics and offline licensing.</p>
