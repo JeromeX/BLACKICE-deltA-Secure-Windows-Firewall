@@ -7,8 +7,15 @@
 - Updated English and German product READMEs.
 - Marked planned €25, €45 and €100 paid license tiers as NOT YET RELEASED.
 - Removed documentation, diagrams and screenshots for private administrative tools.
-- Kept application source code and executable releases out of this repository.
+- Kept application source code and build scripts out of the public repository; EN and DE trial executables are attached separately to the GitHub release.
 - Retained the proprietary rights notice in the root LICENSE file.
+
+## v29.14.4 — EN + DE Trial Release
+
+- English and German clients are announced as trial editions.
+- Both editions provide the 7-day and 30-day Free Trial options.
+- Paid terms (€25, €45 and €100) remain not yet released.
+- Trial executables are distributed as separate GitHub release assets, not committed to the source/documentation tree.
 
 ## v29.14.4 — UI Fix 27 product baseline
 
