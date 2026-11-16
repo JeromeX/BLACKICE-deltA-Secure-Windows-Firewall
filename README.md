@@ -100,7 +100,8 @@ The €25, €45 and €100 price points are not approved offers, cannot current
 
 ## Repository contents
 
-This is a **public-facing product and documentation repository**. It contains product information, screenshots and diagrams. It does not publish application source code, executable releases, internal administration utilities, private credentials or customer data.
+This is a **public-facing product and documentation repository**. It contains product information, screenshots and diagrams. It does not contain application source code, build scripts or internal administration utilities. The English and German trial executables are distributed separately as attachments to the official GitHub trial release.
+
 
 ## Security and privacy
 
