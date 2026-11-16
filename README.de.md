@@ -10,7 +10,7 @@
 <img alt="DE und EN" src="https://img.shields.io/badge/languages-DE%20%7C%20EN-16875d" />
 <img alt="Version 29.14.4" src="https://img.shields.io/badge/client-v29.14.4-303b4a" />
 </p>
-<p><a href="README.md">English README</a> · <a href="docs/PRODUCT_OVERVIEW.md">Produktübersicht</a> · <a href="docs/ENGINEERING_OVERVIEW.md">Technische Entwicklung</a> · <a href="docs/SCREENSHOTS.md">Screenshots</a></p>
+<p><a href="README.md">English README</a> · <a href="docs/PRODUCT_OVERVIEW.md">Produktübersicht</a> · <a href="docs/ENGINEERING_OVERVIEW.md">Technische Entwicklung</a> · <a href="docs/SCREENSHOTS.md">Screenshots</a> · <a href="RELEASE_NOTES.md">Trial-Release-Informationen</a></p>
 </div>
 
 ---
@@ -46,7 +46,6 @@ BlackIce ersetzt **nicht** die Windows-Firewall-Engine. Die Paketfilterung über
 | **IP Mask** | Maskiert IP-Text innerhalb von Teilen der BlackIce-Oberfläche. Dies ist keine Anonymisierung des Netzwerkverkehrs. |
 | **NOVA AI (optional)** | Optionale, vom Betreiber konfigurierte KI-Anbindung; kein API-Schlüssel ist im Repository enthalten. |
 
-
 ## Funktionsübersicht
 
 <p align="center"><img src="docs/assets/blackice-feature-map.svg" alt="BlackIce-Funktionsübersicht" width="100%" /></p>
@@ -61,14 +60,21 @@ Die Anwendung hat drei zentrale Verantwortungsbereiche: die WPF-Desktopoberfläc
 
 Die Entwicklung erfolgte schrittweise und Windows-spezifisch: Firewalloperationen wurden zentralisiert, Verbindungs- und DNS-Ansichten an Windows-Telemetrie angebunden und die Funktionsparität zwischen EN und DE gepflegt. Weitere Hintergründe stehen in der [technischen Übersicht](docs/ENGINEERING_OVERVIEW.md).
 
+## Testversionen — Deutsch und Englisch
+
+Die englische (EN) und die deutsche (DE) Client-Version werden mit diesem Release als **Testversionen (Trial)** angeboten. Für beide Sprachversionen gelten dieselben Testoptionen:
+
+- **7-Tage-Free-Trial**
+- **30-Tage-Free-Trial**
+
+Die kostenpflichtigen Laufzeiten (25 €, 45 € und 100 €) sind **NOCH NICHT FREIGEGEBEN** und derzeit nicht erhältlich.
+
 ## Geplante Lizenzpreise
 
 Die folgenden Werte sind **ausschließlich geplante Anzeigepreise**. Die kostenpflichtigen Laufzeiten sind **NOCH NICHT FREIGEGEBEN** und derzeit kein öffentlich verfügbares Angebot.
 
 | Geplante Laufzeit | Geplanter Preis | Freigabestatus |
 |---|---:|---|
-| 7 Tage | Free Trial | Testoption |
-| 30 Tage | Free Trial | Testoption |
 | 1 Jahr (365 Tage) | 25 € | **NOCH NICHT FREIGEGEBEN** |
 | 2 Jahre (730 Tage) | 45 € | **NOCH NICHT FREIGEGEBEN** |
 | Lifetime | 100 € | **NOCH NICHT FREIGEGEBEN** |
