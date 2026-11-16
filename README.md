@@ -10,7 +10,7 @@
 <img alt="EN and DE" src="https://img.shields.io/badge/languages-EN%20%7C%20DE-16875d" />
 <img alt="Version 29.14.4" src="https://img.shields.io/badge/client-v29.14.4-303b4a" />
 </p>
-<p><a href="README.de.md">Deutsche README</a> · <a href="docs/PRODUCT_OVERVIEW.md">Product overview</a> · <a href="docs/ENGINEERING_OVERVIEW.md">Engineering overview</a> · <a href="docs/SCREENSHOTS.md">Screenshots</a></p>
+<p><a href="README.de.md">Deutsche README</a> · <a href="docs/PRODUCT_OVERVIEW.md">Product overview</a> · <a href="docs/ENGINEERING_OVERVIEW.md">Engineering overview</a> · <a href="docs/SCREENSHOTS.md">Screenshots</a> · <a href="RELEASE_NOTES.md">Public preview notes</a></p>
 </div>
 
 ---
