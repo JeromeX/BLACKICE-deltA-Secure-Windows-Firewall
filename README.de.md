@@ -100,7 +100,8 @@ Die Preisstufen 25 €, 45 € und 100 € sind keine genehmigten Angebote, kön
 
 ## Inhalt dieses Repositorys
 
-Dieses Repository ist eine **öffentliche Produkt- und Dokumentationsseite**. Es enthält Produktinformationen, Screenshots und Grafiken. Es veröffentlicht weder den Anwendungsquellcode noch ausführbare Releases, interne Verwaltungswerkzeuge, private Zugangsdaten oder Kundendaten.
+Dieses Repository ist eine **öffentliche Produkt- und Dokumentationsseite**. Es enthält Produktinformationen, Screenshots und Grafiken, aber keinen Anwendungsquellcode, keine Build-Skripte und keine internen Verwaltungswerkzeuge. Die englische und die deutsche Trial-EXE werden separat als Anhänge des offiziellen GitHub-Trial-Releases bereitgestellt.
+
 
 ## Sicherheit und Datenschutz
 
