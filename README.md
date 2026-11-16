@@ -10,7 +10,7 @@
 <img alt="EN and DE" src="https://img.shields.io/badge/languages-EN%20%7C%20DE-16875d" />
 <img alt="Version 29.14.4" src="https://img.shields.io/badge/client-v29.14.4-303b4a" />
 </p>
-<p><a href="README.de.md">Deutsche README</a> · <a href="docs/PRODUCT_OVERVIEW.md">Product overview</a> · <a href="docs/ENGINEERING_OVERVIEW.md">Engineering overview</a> · <a href="docs/SCREENSHOTS.md">Screenshots</a> · <a href="RELEASE_NOTES.md">Public preview notes</a></p>
+<p><a href="README.de.md">Deutsche README</a> · <a href="docs/PRODUCT_OVERVIEW.md">Product overview</a> · <a href="docs/ENGINEERING_OVERVIEW.md">Engineering overview</a> · <a href="docs/SCREENSHOTS.md">Screenshots</a> · <a href="RELEASE_NOTES.md">Trial release notes</a></p>
 </div>
 
 ---
@@ -46,7 +46,6 @@ BlackIce does **not** replace the Windows firewall engine. Windows Defender Fire
 | **IP Mask** | Visually masks IP strings in parts of the BlackIce UI. It is a display aid, not traffic anonymization. |
 | **NOVA AI (optional)** | Provides an optional AI integration configured by the operator; no API credential is bundled. |
 
-
 ## Functional map
 
 <p align="center"><img src="docs/assets/blackice-feature-map.svg" alt="BlackIce feature map" width="100%" /></p>
@@ -61,14 +60,21 @@ The application has three main responsibilities: the WPF desktop experience; Win
 
 The development approach was incremental and Windows-specific: firewall operations were consolidated behind a central management layer, connection and DNS views were connected to Windows telemetry, and English/German client parity was maintained. See the [engineering overview](docs/ENGINEERING_OVERVIEW.md).
 
+## Trial editions — English and German
+
+The English (EN) and German (DE) client editions are offered as **trial versions** in this release. Both language editions use the same trial options:
+
+- **7-day Free Trial**
+- **30-day Free Trial**
+
+The paid terms (€25, €45 and €100) are **NOT YET RELEASED** and are not available for purchase.
+
 ## Planned license pricing
 
 The following values are **planned display prices only**. The paid plans are **NOT YET RELEASED** and are not currently available as a public offer.
 
 | Planned term | Planned price | Release status |
 |---|---:|---|
-| 7 days | Free Trial | Trial option |
-| 30 days | Free Trial | Trial option |
 | 1 year (365 days) | €25 | **NOT YET RELEASED** |
 | 2 years (730 days) | €45 | **NOT YET RELEASED** |
 | Lifetime | €100 | **NOT YET RELEASED** |
