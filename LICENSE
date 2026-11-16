@@ -1,44 +1,63 @@
-PROPRIETARY SOFTWARE LICENSE — ALL RIGHTS RESERVED
+PROPRIETARY SOFTWARE LICENSE — LIMITED TRIAL USE
 
 Copyright (c) 2026 Malte Speck
 
-BlackIce Δ / BlackIce FW and the source code, documentation, assets, release tools,
-user interface designs and related materials in this repository (the "Software")
-are proprietary materials.
+BlackIce Δ / BlackIce FW, including its application, user interface designs,
+documentation, images, branding and related materials (the "Software"), is
+proprietary software. All rights are reserved except for the limited trial
+permission expressly stated below.
 
-1. No public license grant
+1. Limited trial permission for official binaries
 
-   No permission is granted by this repository, its visibility, or the act of
-   downloading or viewing the Software to use, execute, copy, modify, merge,
-   publish, distribute, sublicense, sell, or create derivative works from the
-   Software, in whole or in part.
+   A person who downloads an official BlackIce EN or DE executable installer
+   attached by the rights holder to an official GitHub Release is granted a
+   limited, personal, non-exclusive, non-transferable and revocable permission
+   to install and execute that binary solely for evaluation during a valid
+   7-day or 30-day BlackIce trial, as applicable and as enforced by the
+   Software's trial activation mechanism.
 
-2. Limited evaluation access
+   This permission applies only to the official unmodified binaries and does
+   not grant rights to source code, internal tools or any other materials.
 
-   Access to this repository is limited to persons expressly authorized by the
-   copyright holder. Any evaluation, testing or internal use must be covered by
-   a separate written authorization or agreement from the copyright holder.
+2. Restrictions
 
-3. Restrictions
+   Except for the limited trial permission above, you may not copy, modify,
+   adapt, reverse engineer, decompile, disassemble, redistribute, sublicense,
+   publish, sell, rent, host or create derivative works from the Software,
+   except to the extent a restriction is prohibited by applicable law.
 
-   Without prior written permission, you may not redistribute the Software or
-   derivatives, remove proprietary notices, publish private source or build
-   artifacts, or use the Software to provide a hosted or commercial service.
+   You may not remove copyright, trademark or proprietary notices, bypass
+   trial restrictions, or share, transfer or resell a trial license or
+   activation token.
 
-4. Third-party components
+3. No source-code or administration-tool license
 
-   Third-party libraries and tools remain subject to their own licenses. This
-   notice does not replace or override those third-party licenses. Their notices
-   must be retained where required.
+   No source code, build tools, private signing material or internal
+   administration utilities are licensed or distributed through this
+   repository. The separate internal administration tools are not part of
+   the public BlackIce trial.
 
-5. No warranty
+4. Trial and paid terms
 
-   To the maximum extent permitted by applicable law, the Software is provided
-   "AS IS", without warranties or conditions of any kind. The copyright holder
-   is not liable for claims or damages arising from use of the Software, except
-   where such exclusion is prohibited by law.
+   The public trial options announced for this release are 7 days and 30 days
+   for both the English and German client editions. Paid options of €25, €45
+   and €100 are not yet released and are not currently available for purchase.
+   Any later commercial terms require a separate announcement or agreement.
 
-6. No transfer of ownership
+5. Third-party components
 
-   All rights not expressly granted in a separate written agreement are
-   reserved by the legal copyright holder.
+   Third-party libraries and components remain subject to their own license
+   terms. This notice does not replace or override those licenses. Applicable
+   third-party notices must be retained.
+
+6. No warranty
+
+   To the maximum extent permitted by applicable law, the Software is
+   provided "AS IS", without warranties or conditions of any kind. Nothing in
+   this notice excludes liability that cannot lawfully be excluded.
+
+7. Reservation of rights
+
+   All rights not expressly granted above are reserved by the legal copyright
+   holder. Viewing or downloading this repository does not grant any other
+   permission to use, copy, modify or distribute the Software.
